@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.myProfile {
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.myProfile:hover {
+  transform: scale(1.1);
+}
